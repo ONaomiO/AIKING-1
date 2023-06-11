@@ -1,0 +1,26 @@
+@import "_reset";
+@import "_variable";
+@import "_header";
+@import "_main";
+* {
+  font-family: "Noto Sans TC", sans-serif;
+  color: $mainFont;
+}
+body {
+  background: #1e1e1e;
+  // max-width: 100vw;
+}
+.wrap {
+  padding-top: 20px;
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.animation,
+.section2,
+.section3,
+.section4,
+.section5,
+.section6 {
+  margin-bottom: 160px;
+}

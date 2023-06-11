@@ -1,0 +1,452 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.fw400 {
+  font-weight: 400;
+}
+
+.fw700 {
+  font-weight: 700;
+}
+
+.fw900 {
+  font-weight: 900;
+}
+
+.fz14 {
+  font-size: 14px;
+}
+
+.fz16 {
+  font-size: 16px;
+}
+
+.fz20 {
+  font-size: 20px;
+}
+
+.fz32 {
+  font-size: 32px;
+}
+
+.fz48 {
+  font-size: 48px;
+}
+
+.fz80 {
+  font-size: 80px;
+}
+
+.fz120 {
+  font-size: 120px;
+}
+
+.lh120 {
+  line-height: 120%;
+}
+
+.lh150 {
+  line-height: 150%;
+}
+
+.od0 {
+  order: 0;
+}
+
+.od1 {
+  order: 1;
+}
+
+.od2 {
+  order: 2;
+}
+
+.od3 {
+  order: 3;
+}
+
+.od4 {
+  order: 4;
+}
+
+.whiteBG {
+  background: #fff;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+
+.mr24 {
+  margin-right: 24px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb40 {
+  margin-bottom: 40px;
+}
+
+.mb100 {
+  margin-bottom: 100px;
+}
+
+.mb160 {
+  margin-bottom: 160px;
+}
+
+.pr118 {
+  padding-right: 118px;
+}
+
+.pl118 {
+  padding-left: 118px;
+}
+
+.w160 {
+  width: 160px;
+}
+
+.h40 {
+  height: 40px;
+}
+
+.p20-32 {
+  padding: 20px 32px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+.header .menu {
+  display: flex;
+  align-items: center;
+}
+.header .menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.banner {
+  margin-bottom: 100px;
+}
+.banner h2 {
+  margin-bottom: 40px;
+}
+.banner .startButton a {
+  border: 1px solid #fff;
+  padding: 20px 40px;
+  border-radius: 16px;
+  text-decoration: none;
+}
+
+.animation {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 160px;
+}
+.section2 {
+  margin-bottom: 160px;
+}
+.section2 .service {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+.section2 .service h3 {
+  margin-right: 24px;
+  flex: 1 1 200px;
+}
+.section2 .service h1 {
+  flex: 1 1 600px;
+}
+.section2 .serviceList {
+  display: flex;
+}
+.section2 .serviceList .serviceCard {
+  border: 1px solid #525252;
+  border-radius: 16px;
+  padding: 80px 40px;
+  width: 30%;
+}
+.section2 .serviceList .serviceCard h3 {
+  padding: 20px 0;
+}
+.section3 h3 {
+  margin-bottom: 80px;
+}
+.section3 .logoBar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.section3 .logoBar img {
+  width: 160px;
+  height: 40px;
+}
+
+.recommendList {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.recommendCard {
+  display: flex;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  flex-direction: column;
+}
+
+.star {
+  margin-bottom: 20px;
+  order: 0;
+}
+p {
+  margin-bottom: 20px;
+  flex-grow: 1;
+  order: 1;
+}
+
+.user {
+  order: 2;
+  display: flex;
+  align-items: center;
+}
+.user .pic {
+  margin-right: 16px;
+  width: 48px;
+  height: 48px;
+}
+.user .bref {
+  display: flex;
+}
+
+.whiteBG {
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.slogan {
+  margin-bottom: 80px;
+  padding-top: 160px;
+  text-align: center;
+}
+.slogan h3 {
+  color: #020202;
+}
+
+.searchBar {
+  margin-bottom: 24px;
+  display: flex;
+  background: #f2f2f2;
+  width: 100%;
+  border-radius: 16px;
+  align-items: center;
+}
+.searchBar svg {
+  padding: 20px 0 20px 40px;
+}
+.searchBar p {
+  color: #919191;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 12px;
+}
+
+.tagBar {
+  display: flex;
+}
+.tagBar .select {
+  border: 1px solid #f2f2f2;
+  border-radius: 16px;
+  display: inline-block;
+  padding: 20px 24px 20px 40px;
+}
+.tagBar .select span {
+  color: #020202;
+}
+
+.active {
+  color: #020202;
+  background: #f2f2f2;
+  border-radius: 16px;
+  padding: 8px 16px;
+  gap: 10px;
+}
+
+.tag {
+  display: flex;
+}
+.tag li a {
+  color: #919191;
+  text-decoration: none;
+}
+
+.line {
+  outline: 1px solid #f2f2f2;
+}
+
+.spaceA {
+  display: flex;
+  justify-content: space-between;
+}
+
+* {
+  font-family: "Noto Sans TC", sans-serif;
+  color: #fff;
+}
+
+body {
+  background: #1e1e1e;
+}
+
+.wrap {
+  padding-top: 20px;
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.animation,
+.section2,
+.section3,
+.section4,
+.section5,
+.section6 {
+  margin-bottom: 160px;
+}/*# sourceMappingURL=all.css.map */

@@ -1,0 +1,21 @@
+// * {
+//   outline: 1px solid #fff;
+// }
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+
+  .menu {
+    display: flex;
+    align-items: center;
+    li {
+      a {
+        text-decoration: none;
+        color: $mainFont;
+      }
+    }
+  }
+}
